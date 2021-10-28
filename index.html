@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt_BR"></html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Área do Usuário</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <label for="uname"><b>Usuário</b></label>
+    <input type="text" placeholder="Insira seu e-mail" name="uname" required>
+
+    <label for="psw"><b>Senha</b></label>
+    <input  type="password" placeholder="Insira sua senha" name="psw" required>
+
+    <button type="submit" onclick="Confirmar()">Entrar</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" id="lembrar"> Lembrar-me
+    </label>
+  </div>
+
+  <div class="box" style="background-color:#f1f1f1">
+    <span class="psw">Esqueceu <a href="#">sua senha?</a></span>
+  </div> 
+</body>
+</html>

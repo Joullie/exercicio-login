@@ -1,0 +1,66 @@
+/* Form Border */
+form {
+  border: 3px solid #efc1ba;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3b3b3b;
+}
+
+div {
+  width: 300px;
+  border: 15px;
+  padding: 150px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* Input */
+input[type='text'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #efc1ba;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+/* Estilos para os botões */
+button {
+  background-color: #efc1ba;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 25px;
+}
+
+/* Hover effect */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Containers */
+.container {
+  padding: 15px;
+  border: 15px;
+}
+
+/* Esqueci minha senha */
+span.psw {
+  float: right;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: -10px;
+}
+.box {
+  padding: 14px 20px;
+  margin: auto;
+  border: none;
+  float: inherit;
+}
